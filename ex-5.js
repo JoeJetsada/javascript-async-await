@@ -14,10 +14,10 @@ let getJohnProfile = () => {
 // Start coding here
 async function asyncFunction(){
 try{
-  const profile = await getJohnProfile()
-  console.log(profile)
+  const profile = await getJohnProfile();
+  console.log(profile);
 }catch(error){
-  console.log(error)
+  console.log(error);
 }
 
 }
